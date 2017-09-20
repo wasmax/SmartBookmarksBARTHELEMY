@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.barthelemy.smartbookmarks.MainActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lstNotes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Nombre de livres"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="Nombre de notes"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/tvNbLivres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/lstLivres"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Liste de livres"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="33dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/lstNotes"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Liste de Notes"
+        tools:layout_editor_absoluteY="89dp"
+        tools:layout_editor_absoluteX="127dp"
+        android:layout_below="@+id/lstLivres"
+        android:layout_alignStart="@+id/lstLivres"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/tvNbNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAddNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="Ajouter une note" />
+
+
+</RelativeLayout>
